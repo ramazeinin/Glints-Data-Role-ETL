@@ -11,7 +11,7 @@ from wreq import Client, Emulation
 ROLES = ["data analyst", "data scientist", "data engineer"]
 MAX_JOBS_PER_SEARCH = 150 
 
-PROJECT_ID = "glints-492112" 
+PROJECT_ID = "glints-****" 
 BQ_TABLE_ID = f"{PROJECT_ID}.glints_data.job_listings_v3" # Update table name if needed!
 
 # Added createdAt and updatedAt back to the query!
